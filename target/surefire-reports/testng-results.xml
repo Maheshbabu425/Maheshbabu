@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-20T16:03:26Z" name="Suite" finished-at="2021-01-20T16:03:26Z" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2021-01-20T16:03:26Z" name="Test" finished-at="2021-01-20T16:03:26Z" duration-ms="45">
+      <class name="Kalluri.Maheshbabu.SrinivasaraoTest">
+        <test-method signature="wife()[pri:0, instance:Kalluri.Maheshbabu.SrinivasaraoTest@1b11171f]" started-at="2021-01-20T16:03:26Z" name="wife" finished-at="2021-01-20T16:03:26Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wife -->
+      </class> <!-- Kalluri.Maheshbabu.SrinivasaraoTest -->
+      <class name="Kalluri.Maheshbabu.NagarajuTest">
+        <test-method signature="wife()[pri:0, instance:Kalluri.Maheshbabu.NagarajuTest@1151e434]" started-at="2021-01-20T16:03:26Z" name="wife" finished-at="2021-01-20T16:03:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wife -->
+        <test-method signature="son()[pri:0, instance:Kalluri.Maheshbabu.NagarajuTest@1151e434]" started-at="2021-01-20T16:03:26Z" name="son" finished-at="2021-01-20T16:03:26Z" depends-on-methods="Kalluri.Maheshbabu.NagarajuTest.wife" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- son -->
+      </class> <!-- Kalluri.Maheshbabu.NagarajuTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
